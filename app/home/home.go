@@ -11,12 +11,16 @@ func HomeViewHandler(rw http.ResponseWriter, req *http.Request) {
 		PageName string
 		Title    string
 		Content  string
+		FullName string
+		NickName string
 	}
 
 	p := Page{
 		PageName: "home",
 		Title:    "Home",
 		Content:  "Sample web with golang",
+		FullName: "Yazied Dhiya Uddien",
+		NickName: "Dizzay",
 	}
 
 	common.Templates = template.Must(template.ParseFiles("layout/home/view.html", common.LayoutPath))
@@ -29,12 +33,24 @@ func ResumeViewHandler(w http.ResponseWriter, r *http.Request) {
 		PageName string
 		Title    string
 		Content  string
+		Skill1   string
+		Skill2   string
+		Skill3   string
+		Skill4   string
+		Skill5   string
+		Skill6   string
 	}
 
 	p := Page{
 		PageName: "resume",
 		Title:    "Skills",
 		Content:  "Sample web with golang",
+		Skill1:   "Android",
+		Skill2:   "Golang",
+		Skill3:   "Java",
+		Skill4:   "php",
+		Skill5:   "HTML",
+		Skill6:   "MYSQL",
 	}
 
 	common.Templates = template.Must(template.ParseFiles("layout/home/resume.html", common.LayoutPath))
