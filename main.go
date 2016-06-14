@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/dizzay-web/app/home"
 	"github.com/gorilla/mux"
+	"github.com/yaziedda/dizzay/app/home"
 	"net/http"
 )
 

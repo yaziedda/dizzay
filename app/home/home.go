@@ -1,7 +1,7 @@
 package home
 
 import (
-	"github.com/dizzay-web/app/common"
+	"github.com/yaziedda/dizzay/app/common"
 	"html/template"
 	"net/http"
 )
