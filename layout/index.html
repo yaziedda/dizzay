@@ -1,0 +1,44 @@
+{{define "base"}}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dizzay Web</title>
+	<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+</head>
+<body>
+<div class="l_head">
+	<div class="head">
+		<div class="l_header_in">
+			<div class="l_header_one">
+				Dizzay Web
+			</div>
+			<div class="l_header_two">
+				<span>Hello World, welcome to my web...</span>
+			</div>
+			<div class="l_header_three">
+				My Logo
+			</div>
+		</div>
+		<div class="l_head_down">
+			<ul>
+				<a href="/"><li class="{{if eq .PageName "home"}}active{{end}}">Me</li></a>
+				<!-- <a href="/resume"><li class="{{if eq .PageName "resume"}}active{{end}}">Resume</li></a> -->
+				<!-- <a href="/contact"><li class="{{if eq .PageName "contact"}}active{{end}}">Contact</li></a>
+				<a href="/experience"><li class="{{if eq .PageName "experience"}}active{{end}}">Experience</li></a> -->
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="l_body">
+	<div class="body">
+		{{template "body" .}}
+	</div>
+</div>
+<div class="l_foot">
+	<div class="foot">
+		Yazied &copy; 2016
+	</div>
+</div>
+</body>
+</html>
+{{end}}
