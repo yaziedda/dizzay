@@ -82,7 +82,7 @@ a{
 	padding-bottom: 20px;
 	color: #546E7A;
 	/*text-align: center;*/
-	min-height: 450px;
+	min-height: 430px;
 }
 .about_me_content{
 	text-align: center;
@@ -113,6 +113,182 @@ a{
 	font-style: italic;
 	font-weight: bold;
 }
+.square{
+	background: #607D8B;
+	max-width: 15%;
+	margin: auto;
+	padding: 20px;
+	color: #ECEFF1;
+}
+.square:hover{
+	background: #78909C;
+	cursor: pointer;
+}
+.square img{
+	margin: 5px;
+}
+/*.square{
+	background: #607D8B;
+	text-align: left;
+	max-width: 300px;
+	margin: auto;
+	color: #ECEFF1;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.square_in{
+	padding: 10px;
+}
+
+.square:hover, .square .square_in.back{
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    cursor: pointer;    
+}
+
+.square_in.back{
+	display: table;
+}
+.square_in.back strong{
+	display: table-cell;
+	padding: 0 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: normal;
+    font-weight: 400;
+    line-height: 1.3;
+}
+.square .square_in{
+	-webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.square .back{
+	display: none;
+}
+*/
+/*.square_in.back{
+   display: table;
+}
+
+.square_in{
+	padding: 20px;
+	display: table;
+}
+.square_down{
+	padding: 20px;
+}
+.square .square_down{
+	display: none;
+}
+.square.square_down{
+	display: table;
+}
+.square .square_in{
+	-webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.no-square .back{
+	display: none;
+}
+.square_in.back {
+    display: table;
+}*/
+.l_content_skill{
+	max-width: 100%;
+	/*background: #607D8B;	*/
+	margin: auto;
+	overflow: hidden;
+}
+.content_skill{
+	margin: auto;
+	text-align: center;
+	width: 16%;
+	margin-right: 3%;
+	/*padding: 10px;*/
+	float: left;
+	color: #ECEFF1;
+	margin-bottom: 3%;
+	border: #546E7A solid 2px;
+}
+.l_skill{
+	background: #607D8B;
+	transition: all 0.3s ease-in-out;
+}
+.skill{
+	padding: 15px;
+}
+.l_skill:hover{
+	background: #546E7A;
+	cursor: pointer;
+}
+.skill img{
+	margin: 5px;
+}
+
+.l_skill_2{
+	background: #607D8B;
+	transition: all 0.3s ease-in-out;
+}
+.skill_2{
+	padding: 15px;
+}
+.l_skill_2:hover{
+	background: #546E7A;
+	cursor: pointer;
+}
+.skill_2 img{
+	margin: 5px;
+}
+
+.l_skill_3{
+	background: #607D8B;
+	transition: all 0.3s ease-in-out;
+}
+.skill_3{
+	padding: 15px;
+}
+.l_skill_3:hover{
+	background: #546E7A;
+	cursor: pointer;
+}
+.skill_3 img{
+	margin: 5px;
+}
+
+.l_skill_4{
+	background: #607D8B;
+	transition: all 0.3s ease-in-out;
+}
+.skill_4{
+	padding: 15px;
+}
+.l_skill_4:hover{
+	background: #546E7A;
+	cursor: pointer;
+}
+.skill_4 img{
+	margin: 5px;
+}
+
 .l_foot{
 	background: #ECEFF1;
 }
