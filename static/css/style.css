@@ -12,11 +12,11 @@ a{
 	border-bottom: #546E7A solid 5px;
 }
 .head{
-	max-width: 1200px;
+	max-width: 1100px;
 	/*background: #6e6e6e;*/
 	margin: auto;
 	/*padding: 10px;*/
-	padding-top: 20px;
+	padding-top: 30px;
 	/*padding-bottom: 20px;*/
 	color: #ECEFF1;
 }

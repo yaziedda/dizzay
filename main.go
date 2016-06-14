@@ -11,7 +11,7 @@ func main() {
 	http.Handle("/", r)
 
 	r.HandleFunc("/", home.HomeViewHandler).Methods("GET")
-	r.HandleFunc("/resume", home.ResumeViewHandler).Methods("GET")
+	r.HandleFunc("/resume.dzy", home.ResumeViewHandler).Methods("GET")
 	r.HandleFunc("/contact", home.ContactViewHandler).Methods("GET")
 	r.HandleFunc("/experience", home.ExperienceViewHandler).Methods("GET")
 
