@@ -1,3 +1,3 @@
-# dizzay
+# Web dengan golang
 
-Web using golang
+Website menggunakan golang sebagai routing dan object data nya.
